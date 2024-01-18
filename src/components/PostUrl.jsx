@@ -48,11 +48,11 @@ const PostUrl = () => {
         <div className="mt-4">
           <p className="text-sm text-gray-600">Shortened URL:</p>
           <a
-            href={`http://localhost:8001/${shortURL}`}
+            href={`https://shorturl-backend-tan.vercel.app/${shortURL}`}
             target="_blank"
             className="text-blue-500 text-sm"
           >
-            {`http://localhost:8001/${shortURL}`}
+            {`https://shorturl-backend-tan.vercel.app/${shortURL}`}
           </a>
         </div>
       )}
